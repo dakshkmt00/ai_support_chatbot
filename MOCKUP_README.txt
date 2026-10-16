@@ -1,0 +1,1 @@
+app_mockup.png is an illustrative static UI mockup created for the project documentation. It is not a screenshot captured from a live browser session. To view the actual running application, start the server using the README instructions and open http://127.0.0.1:8000.

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support AI — Customer Help</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar">
+    <div class="brand"><div class="brand-mark">✦</div><div><strong>Support AI</strong><small>Customer care assistant</small></div></div>
+    <button id="newChat" class="new-chat">＋ New conversation</button>
+    <div class="sidebar-label">RECENT CONVERSATIONS</div>
+    <div id="historyList" class="history-list"><p class="muted">Loading history…</p></div>
+    <div class="sidebar-bottom"><span class="status-dot"></span> Local FAQ mode <span class="version">v1.0</span></div>
+  </aside>
+  <main class="main-panel">
+    <header class="topbar"><div class="mobile-brand">✦ Support AI</div><div class="online"><span class="status-dot"></span> Assistant online</div>
+      <div class="top-actions"><button id="exportBtn" class="quiet-btn">⇩ Export CSV</button><button id="clearBtn" class="quiet-btn danger">Clear chat</button></div>
+    </header>
+    <section class="welcome" id="welcome">
+      <div class="hero-icon">✦</div><p class="eyebrow">YOUR PERSONAL SUPPORT ASSISTANT</p>
+      <h1>How can I help you<br><span>today?</span></h1>
+      <p class="subtitle">Ask a question and I’ll help you find the right answer.</p>
+      <div class="suggestions">
+        <button class="suggestion" data-prompt="How can I track my order?"><span>📦</span><b>Track an order</b><small>Check delivery status</small></button>
+        <button class="suggestion" data-prompt="What is your return policy?"><span>↩️</span><b>Returns & exchanges</b><small>Learn about returns</small></button>
+        <button class="suggestion" data-prompt="When will I receive my refund?"><span>💳</span><b>Refund status</b><small>Understand refund timing</small></button>
+        <button class="suggestion" data-prompt="I forgot my password. How can I reset it?"><span>🔐</span><b>Account help</b><small>Get back into your account</small></button>
+      </div>
+    </section>
+    <section id="chatMessages" class="chat-messages" aria-live="polite"></section>
+    <div class="composer-wrap">
+      <div id="typing" class="typing hidden"><span></span><span></span><span></span> Assistant is thinking…</div>
+      <form id="chatForm" class="composer"><textarea id="messageInput" rows="1" maxlength="2000" placeholder="Type your question here…" aria-label="Message"></textarea><button id="sendBtn" type="submit" aria-label="Send message">➤</button></form>
+      <div class="composer-foot"><span>AI can make mistakes. Check important information.</span><span id="charCount">0 / 2000</span></div>
+    </div>
+  </main>
+</div>
+<script src="/static/app.js"></script>
+</body></html>

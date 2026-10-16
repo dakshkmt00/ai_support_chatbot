@@ -1,0 +1,89 @@
+[
+  {
+    "intent": "order_tracking",
+    "question": "How can I track my order?",
+    "examples": [
+      "Where is my order",
+      "track package",
+      "order status",
+      "when will my order arrive"
+    ],
+    "answer": "To track an order, open **My Orders** in your account and select the order to view its latest status and tracking link. If tracking has not updated, allow up to 24 hours after dispatch."
+  },
+  {
+    "intent": "returns",
+    "question": "What is your return policy?",
+    "examples": [
+      "Can I return an item",
+      "How do I send product back",
+      "return window",
+      "exchange an item"
+    ],
+    "answer": "Most unused items can be requested for return within 7 days of delivery, subject to the product category and seller policy. Open **My Orders**, choose the item, and select **Return/Replace**. This is sample policy text for the demo; replace it with your organisation\u2019s actual policy."
+  },
+  {
+    "intent": "refunds",
+    "question": "When will I receive my refund?",
+    "examples": [
+      "refund status",
+      "how long does refund take",
+      "money not received",
+      "refund timeline"
+    ],
+    "answer": "After a return is approved, refunds usually take 5\u20137 business days to appear, depending on the payment provider. Check the refund status under **My Orders**. This is illustrative demo information, not a real merchant guarantee."
+  },
+  {
+    "intent": "payments",
+    "question": "Which payment methods are accepted?",
+    "examples": [
+      "Can I pay by UPI",
+      "credit card",
+      "payment options",
+      "cash on delivery"
+    ],
+    "answer": "A typical store may accept UPI, debit/credit cards, net banking, and selected cash-on-delivery orders. Available methods are shown at checkout. Update this answer to match your actual payment gateway."
+  },
+  {
+    "intent": "delivery",
+    "question": "How long does delivery take?",
+    "examples": [
+      "shipping time",
+      "delivery estimate",
+      "when will package arrive",
+      "shipping charges"
+    ],
+    "answer": "Delivery estimates depend on the destination and item availability. Your checkout page and order details show the most accurate estimate. For this demo, use a typical estimate of 3\u20137 business days and replace it with your actual service-level policy."
+  },
+  {
+    "intent": "account_access",
+    "question": "I forgot my password. How can I reset it?",
+    "examples": [
+      "can't log in",
+      "forgot password",
+      "reset account password",
+      "login problem"
+    ],
+    "answer": "Select **Forgot password** on the sign-in page, enter your registered email address, and follow the reset link. If you do not receive it, check spam or contact support."
+  },
+  {
+    "intent": "contact_support",
+    "question": "How can I contact customer support?",
+    "examples": [
+      "talk to a human",
+      "customer care number",
+      "contact support team",
+      "email support"
+    ],
+    "answer": "For this demo, no real support team is connected. Add your organisation\u2019s verified support email, phone number, or help-centre URL here before deployment."
+  },
+  {
+    "intent": "cancel_order",
+    "question": "Can I cancel my order?",
+    "examples": [
+      "cancel my purchase",
+      "stop shipment",
+      "order cancellation policy"
+    ],
+    "answer": "Open **My Orders**, select the order, and look for **Cancel order**. Cancellation may be unavailable after dispatch. This demo does not connect to a real order system, so it cannot cancel an order for you."
+  }
+]
